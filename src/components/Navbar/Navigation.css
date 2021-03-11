@@ -1,0 +1,52 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  height: 30px;
+  z-index: 1;
+
+  /* Animation */
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav_black {
+  /* background-color: #111; */
+}
+ .nav_logo {
+  position: fixed;
+  left: 20px;
+  width: 180px;
+  font: 900 30px "Lato", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+} 
+
+.nav_logo {
+  position: fixed;
+  left: 20px;
+  width: 180px;
+  object-fit: contain;
+  color: white;
+}
+
+.nav_avatar {
+  position: fixed;
+  right: 20px;
+  width: 80px;
+  object-fit: contain;
+  padding: 10 20px;
+  font-size: 1rem;
+  background: rgb(17, 17, 17);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.nav_avatar:hover{
+  background: white;
+  color: black;
+  box-shadow: 1px 2px 5px black outset;
+  padding: 3px;
+}

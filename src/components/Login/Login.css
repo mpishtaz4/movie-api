@@ -1,0 +1,65 @@
+ .login{
+    position: relative;
+    height: 100%;
+    background: url("https://i.pinimg.com/originals/63/b1/d3/63b1d34171831373e214a630c0e7a969.jpg") center no-repeat;
+    background-size: cover;
+ }
+ .background_gradient{
+     width: 100px;
+     z-index: 1;
+     height: 100vh;
+ }
+ 
+ .background{
+
+ }
+
+ .login_logo{
+     position: fixed;
+     left: 0;
+     width: 150px;
+     object-fit: contain;
+     padding-left: 20px;
+ }
+ .login_button{
+     position:fixed;
+     right: 20px;
+     top: 20px;
+     padding: 10px 20px;
+     font-size: 1rem;
+     background-color: rgb(80, 117, 78);
+     color: white;
+     cursor: pointer;
+     border: none;
+ }
+  h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+ .login_body{
+     position: absolute;
+     top: 15%;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     left: 0;
+     right: 0;
+     text-align: center;
+     z-index: 1;
+     color: white ;
+     padding: 20px;
+ }
+
+ 
+.login_button:hover{
+    background-color: rgb(187, 111, 111);
+    color: black;
+    box-shadow: 1px 2px 5px black inset;
+}
+
